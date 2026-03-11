@@ -25,7 +25,7 @@ export function Layout({ children }: { children: ReactNode }) {
     <div className="min-h-screen flex flex-col font-sans text-slate-800 bg-slate-50 relative overflow-hidden bg-micro-grid">
       <ScrollChakra />
       <LiveTerminalSidebar />
-      <MagneticWhatsApp />
+      {/* <MagneticWhatsApp /> */}
       <FrictionlessCapture />
 
       {/* Floating Navbar */}
